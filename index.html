@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REST APIs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>REST APIs</h1>
+
+    <article class="exercise">
+        <h2>SWAPI</h2>
+        <button onclick="loadSpaceHero()">Load Space Hero</button>
+        <span class="spinner" id="spinnerSpace">Loading...</span>
+        <code class="result" id="spaceHeroName"></code>
+    </article>
+    
+    <article class="exercise">
+        <h2>PokéAPI</h2>
+        <button onclick="loadPokemon()">Load Pokémon</button>
+        <span class="spinner" id="spinnerPokemon">Loading...</span>
+        <code class="result" id="pokemonName"></code>
+    </article>
+    
+    <article class="exercise">
+        <h2>Cat Facts</h2>
+        <button onclick="loadCatFact()">Load Cat Fact</button>
+        <span class="spinner" id="spinnerCat">Loading...</span>
+        <code class="result" id="catFact"></code>
+    </article>
+    
+    <article class="exercise">
+        <h2>Treasure Hunt</h2>
+        <button onclick="treasureHunt()">Start Treasure Hunt</button>
+        <span class="spinner" id="spinnerTreasure">Looking for treasure...</span>
+        <code class="result" id="treasure"></code>
+    </article>
+</body>
+</html>

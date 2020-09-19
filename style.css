@@ -1,0 +1,20 @@
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.spinner {
+    display: none;
+    animation-name: spin;
+    animation-duration: 1200ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transform-style: preserve-3d;
+}
+
+@keyframes spin { 
+    from { 
+        transform: rotate3d(0, 0, 0, 0deg); 
+    } to { 
+        transform: rotate3d(1, 0, 0.1, 360deg); 
+    }
+}
